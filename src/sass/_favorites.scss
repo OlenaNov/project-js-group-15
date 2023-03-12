@@ -1,0 +1,234 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 40px;
+  padding-top: 40px;
+  @media screen and (min-width: 768px) {
+    padding-top: 48px;
+  }
+  @media screen and (min-width: 1200px) {
+    gap: 32px;
+    padding-top: 60px;
+  }
+}
+
+.wrapper {
+  @media screen and (min-width: 480px) {
+    min-width: 288px;
+  }
+
+  @media screen and (min-width: 768px) {
+    min-width: 353px;
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 395px;
+    margin-top: 40px;
+  }
+}
+
+.box {
+  position: relative;
+  display: block;
+  object-fit: fill;
+  min-width: 288px;
+  @media screen and (min-width: 768px) {
+    min-width: 353px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 395px;
+  }
+}
+
+.invisible-button {
+  display: none;
+}
+
+.add-button {
+  position: absolute;
+  padding-left: 12px;
+  height: 28px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  color: #111321;
+  right: 8px;
+  bottom: 12px;
+  @media screen and (min-width: 768px) {
+    right: 12px;
+  }
+  @media screen and (min-width: 1200px) {
+    right: 12px;
+  }
+}
+
+.remove-button {
+  position: absolute;
+  padding-left: 12px;
+  height: 28px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  color: #111321;
+  right: 8px;
+  bottom: 12px;
+  @media screen and (min-width: 768px) {
+    right: 12px;
+  }
+  @media screen and (min-width: 1200px) {
+    right: 12px;
+  }
+}
+
+.box-img {
+  max-height: 395px;
+  min-width: 288px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 353px;
+    max-height: 395px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 395px;
+    height: 395px;
+  }
+}
+
+.card-header {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.37;
+  letter-spacing: -0.01em;
+  color: #111321;
+
+  width: 288px;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 1.37;
+    width: 353px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 395px;
+  }
+}
+
+.card-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #111321;
+
+  width: 288px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 353px;
+    font-size: 16px;
+    line-height: 1.37;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 395px;
+  }
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  min-width: 288px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 353px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 395px;
+  }
+}
+.card-date {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #a8a8a8;
+  @media screen and (min-width: 768px) {
+    .card-date {
+      font-size: 16px;
+      line-height: 1.37;
+    }
+  }
+}
+
+.card-link {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #4440f7;
+
+  @media screen and (min-width: 768px) {
+    .card-link {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.37;
+    }
+  }
+}
+
+.img-label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  padding-top: 4px;
+  text-align: center;
+  color: #ffffff;
+
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  left: 0px;
+  top: 40px;
+  background-color: rgba(68, 64, 247, 0.7);
+  border-radius: 0px 4px 4px 0px;
+}
+
+.isFavorite {
+  position: absolute;
+  padding-left: 12px;
+  height: 28px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  color: #111321;
+  right: 8px;
+  bottom: 12px;
+  @media screen and (min-width: 768px) {
+    right: 12px;
+  }
+  @media screen and (min-width: 1200px) {
+    right: 12px;
+  }
+}
